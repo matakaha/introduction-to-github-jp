@@ -83,9 +83,9 @@ jobs:
         continue-on-error: true
         run: |
           if [ -n "$PR_BODY" ]; then
-            echo "STEP_MESSAGE=Pull request description" >> $GITHUB_OUTPUT
+            echo "STEP_MESSAGE=pull request に説明が入力されている" >> $GITHUB_OUTPUT
           else
-            echo "STEP_MESSAGE=Pull request description is empty" >> $GITHUB_OUTPUT
+            echo "STEP_MESSAGE=pull request の説明が空になっている" >> $GITHUB_OUTPUT
             exit 1
           fi
         env:
@@ -102,7 +102,7 @@ jobs:
           vars: |
             step_number: 3
             results_table:
-              - description: "Pull Request title matches"
+              - description: "pull request のタイトルが一致している"
                 passed: ${{ steps.check-pr-title.outcome == 'success' }}
               - description: ${{ steps.check-pr-description.outputs.STEP_MESSAGE }}
                 passed: ${{ steps.check-pr-description.outcome == 'success' }}
