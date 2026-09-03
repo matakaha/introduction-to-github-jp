@@ -1,47 +1,47 @@
-# Introduction to GitHub
+# GitHub 入門
 
-_Get started using GitHub in less than an hour._
+_1 時間以内で GitHub の基本的な使い方を学びましょう。_
 
-## Welcome
+## ようこそ
 
-People use GitHub to build some of the most advanced technologies in the world. Whether you’re visualizing data or building a new game, there’s a whole community and set of tools on GitHub that can help you do it even better. GitHub Skills’ “Introduction to GitHub” exercise guides you through everything you need to start contributing in less than an hour.
+GitHub は、世界最先端の技術を生み出すために多くの人々から利用されています。データを可視化するときも、新しいゲームを開発するときも、GitHub のコミュニティとさまざまなツールが、よりよい成果を生み出す手助けをしてくれます。GitHub Skills の演習「GitHub 入門」では、コントリビューションを始めるために必要なことを 1 時間以内で一通り学べます。
 
-- **Who is this for**: New developers, new GitHub users, and students.
-- **What you'll learn**: We'll introduce repositories, branches, commits, and pull requests.
-- **What you'll build**: We'll make a short Markdown file you can use as your [profile README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme).
-- **Prerequisites**: None. This exercise is a great introduction for your first day on GitHub.
-- **How long**: This exercise takes less than one hour to complete.
+- **対象者**: 開発を始めたばかりの方、GitHub を初めて使う方、学生。
+- **学習内容**: リポジトリ、ブランチ、コミット、pull request について学びます。
+- **作成するもの**: [プロフィール README](https://docs.github.com/ja/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) として使える短い Markdown ファイルを作成します。
+- **前提知識**: ありません。GitHub を使い始める初日に最適な演習です。
+- **所要時間**: 1 時間以内。
 
-In this exercise, you will:
+この演習では、次の操作を行います。
 
-1. Create a branch
-2. Commit a file
-3. Open a pull request
-4. Merge your pull request
+1. ブランチを作成する
+2. ファイルをコミットする
+3. pull request を作成する
+4. pull request をマージする
 
-### How to start this exercise
+### 演習の始め方
 
-Simply copy the exercise to your account, then give your favorite Octocat (Mona) **about 20 seconds** to prepare the first lesson, then **refresh the page**.
+この演習を自分のアカウントにコピーしてください。お気に入りの Octocat（Mona）が最初のレッスンを準備するまで **20 秒ほど**待ってから、**ページを再読み込み**します。
 
-[![](https://img.shields.io/badge/Copy%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=skills&template_name=introduction-to-github&owner=%40me&name=skills-introduction-to-github&description=Exercise:+Introduction+to+GitHub&visibility=public)
+[![](https://img.shields.io/badge/%E6%BC%94%E7%BF%92%E3%82%92%E3%82%B3%E3%83%94%E3%83%BC-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=skills&template_name=introduction-to-github&owner=%40me&name=skills-introduction-to-github&description=Exercise:+Introduction+to+GitHub&visibility=public)
 
 <details>
-<summary>Having trouble? 🤷</summary><br/>
+<summary>うまくいかない場合 🤷</summary><br/>
 
-When copying the exercise, we recommend the following settings:
+演習をコピーするときは、次の設定をおすすめします。
 
-- For owner, choose your personal account or an organization to host the repository.
+- Owner には、リポジトリを配置する個人アカウントまたは Organization を選択します。
 
-- We recommend creating a public repository, since private repositories will use Actions minutes.
+- プライベートリポジトリでは Actions の実行時間を消費するため、パブリックリポジトリとして作成することをおすすめします。
 
-If the exercise isn't ready in 20 seconds, please check the [Actions](../../actions) tab.
+20 秒経っても演習の準備が完了しない場合は、[Actions](../../actions) タブを確認してください。
 
-- Check to see if a job is running. Sometimes it simply takes a bit longer.
+- ジョブが実行中かどうかを確認します。通常より時間がかかっているだけの場合もあります。
 
-- If the page shows a failed job, please submit an issue. Nice, you found a bug! 🐛
+- 失敗したジョブが表示されている場合は、issue を作成してお知らせください。バグの発見です！ 🐛
 
 </details>
 
 ---
 
-&copy; 2026 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+&copy; 2026 GitHub &bull; [行動規範](https://www.contributor-covenant.org/ja/version/2/1/code_of_conduct/) &bull; [MIT License](https://gh.io/mit)
